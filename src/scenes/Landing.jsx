@@ -52,8 +52,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            I'm a full-stack developer with a passion for creating beautiful and functional websites and apps.
           </p>
         </motion.div>
 

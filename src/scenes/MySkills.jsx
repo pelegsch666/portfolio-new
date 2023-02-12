@@ -73,7 +73,9 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            jgjcghdhdfhfh ggjfjfhj gjjfnf kfjfjf jjfyjghdfgfsd
+            Finished netcraft academy course, since then iam
+            making projects out of my imagination and learning new things,
+            also the design was made by me and my friend irad.
           </p>
         </motion.div>
         {/*Imaginative*/}
@@ -89,7 +91,7 @@ const MySkills = () => {
           }}>
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">03</p>
+              <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Imaginative
               </p>
@@ -97,7 +99,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            jgjcghdhdfhfh ggjfjfhj gjjfnf kfjfjf jjfyjghdfgfsd jkgkgjg
+              Is my key to success, I always try to make my projects more and more delightful in their design although the logic
           </p>
         </motion.div>
         <motion.div
@@ -112,7 +114,7 @@ const MySkills = () => {
           }}>
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">02</p>
+              <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Innovative
               </p>
@@ -120,7 +122,8 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            jgjcghdhdfhfh ggjfjfhj gjjfnf kfjfjf jjfyjghdfgfsd jkgkgjg
+            My goal in every project is to make it better from the previous and always eagr to learn new technologies.
+            `
           </p>
         </motion.div>
       </div>

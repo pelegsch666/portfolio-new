@@ -13,9 +13,9 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, text }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue
+bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue 
 `;
   const projectTitle = title.split(' ').join('-').toLowerCase();
   return (
@@ -24,9 +24,10 @@ bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-dee
       className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">kjgfksgfkgdkjgfkjfg lshklfhskjfh</p>
+        <p className="mt-7">{text}</p>
       </div>
       <img
+  
         src={`../assets/${projectTitle}.jpeg`}
         alt={projectTitle}
       />
@@ -36,9 +37,10 @@ bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-dee
 
 const Projects = () => {
   return (
+    
     <section
       id="projects"
-      className="pt-48 pb-48 ">
+      className="flex flex-col pt-48 pb-48 ">
       {/* Heading */}
       <motion.div
         className="md:w-2/4 mx-auto text-center"
@@ -60,7 +62,7 @@ const Projects = () => {
         </div>
 
         <p className="mt-10 mb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          It is my projects
         </p>
       </motion.div>
       {/*  Projects */}
@@ -78,16 +80,15 @@ const Projects = () => {
             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
             Beautiful User Interfaces
           </div>
-          <Project title="Project 1" />
+          <Project title="Project 1" text='A css game that helps to understand the css property'/>
           <Project title="Project 2" />
           {/* Row 2 */}
-          <Project title="Project 3" />
+          {/* <Project title="Project 3" />
           <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 5" /> */}
 
-          {/* Row 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+        
+        
           <div
             className="flex justify-center text-center items-center p-10 bg-red
             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
@@ -96,6 +97,8 @@ const Projects = () => {
         </motion.div>
       </div>
     </section>
+    
+   
   );
 };
 

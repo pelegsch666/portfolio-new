@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="y-48">
+      className="relative y-48">
       {/* Headings */}
       <motion.div
         className='flex justify-end w-full'

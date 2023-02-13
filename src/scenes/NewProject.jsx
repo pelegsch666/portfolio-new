@@ -1,13 +1,26 @@
 const NewProject = ({ projName, projGithub, projLive, projPic }) => {
-  console.log(projLive)
-    return (
-    <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold ">
+  console.log(projLive);
+  return (
+    <div className="flex flex-col justify-center text-center items-center p-10 bg-red max-w-[700px] max-h-[700px] text-2xl font-playfair font-semibold ">
       {projName}
-      
 
-      <div className="flex justify-between">
-        <a href={projGithub} rel="noreferrer" target='_blank'>Github link</a>
-        <a href={projLive} rel="noreferrer" target='_blank'>See it Live</a>
+      <div className="flex justify-between gap-3">
+        <a
+          href={projGithub}
+          rel="noreferrer"
+          target="_blank">
+          <button
+          className="bg-blue"
+          >Github link 🤖</button>
+        </a>
+        <a
+          href={projLive}
+          rel="noreferrer"
+          target="_blank">
+           <button
+          className="bg-deep-blue"
+          >See It Live 🤘</button>
+        </a>
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
     borderRadius: '50%',
   };
   return (
-    <nav className={`${navbarBackground}z-40 w-full fixed top-0 py-6`}>
+    <nav className={`${navbarBackground}z-40 w-full  top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
         <i
           className="fa fa-avatar"
